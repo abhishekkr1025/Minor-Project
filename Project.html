@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Control of DC Motor using TRIAC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Contributors.html">CONTRIBUTORS</a></li>
+                <li><a href="Project.html">PROJECT</a></li>
+            
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="container">
+        <!-- title -->
+        <div class="title">
+            <h2>WORKING OF PROJECT</h2>
+            <div class="underline"></div>
+        </div>
+       
+    </section>
+    <section class="Section">
+        <div class="Container">
+            <div class="para">
+                <p>
+                    In this project we have used TRIAC to control the speed of DC shunt Motor. By controlling the firing angle of the TRIAC we are controlling the output voltage and ultimately the speed of the DC motor. 
+                </p>
+                <br>
+                <h1 class="title">WORKING</h1>
+                <p>
+                    We are using an IC MOC3021 and an Opto-coupler to provide a pulse to the gate terminal of the TRIAC. 
+                    We have a Step down transformer connected with an AC source of 220 V and 50 Hz, and then a bridge formed by 4 1N4007 diodes to generate the pulse which will go to the Timer 555 at pin no. 2 through the Opto-Coupler PC817 and then this pulse will come out at pin no. 3.
+                    We have used Timer 555 to check the firing angle of the TRIAC.
+                    A potentiometer is also connected with the Timer 555 at pin no. 6. By rotating the knob, we can vary its resistance and the firing angle of the pulse will change. hence the firing angle of the pulse generating at pin no. 3 will trigger the TRIAC at the same firing angle. 
+                    From pin no. 3 of the Timer 555 the pulse will go to the NPN transistor BC547 which will work as a switch.
+                    Different firing angles of the pulse will very the value of the output voltage. 
+                    The AC pulse voltage will be converted to DC voltage by the full wave rectifier formed by the 4 5406 diodes. 
+                    A field circuit is also constructed by connecting the output terminals of DC voltage with a Diode bridge formed by 4 diodes. 
+                    When we will give the AC supply to the circuit the DC motor will start running at high starting current but by rotating the knob of the potentiometer in anti clockwise direction speed of the DC motor will decrease and by rotating that in clockwise direction speed will be increased.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Section">
+        <div class="Container">
+            <h1 class="title">Circuit Diagram</h1>
+            <div class="img-container">
+                <img width=1000 src="./Minor Project Diagram.JPG" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="Section">
+        <div class="Container">
+            <h1 class="title">Description of Project</h1>
+            <div class="img-container">
+                <img width=200 height=250 class="img" src="./Project2.jfif" alt="TRIAC">
+                <img width=200 height=250 class="img" src="./Project1.jpeg" alt="TRIAC">
+            </div>
+            <div class="para">
+                <p>
+                    A triac motor speed control circuit comprising: a pair of supply line terminals; a triac; a diode bridge rectifier having its input terminals coupled in series with the main current path of said triac, the series combination of said bridge rectifier and said triac being coupled across said pair of supply line terminals; a diac having one terminal coupled to the control gate of said triac; a speed potentiometer and a timing capacitor coupled together in series, the series combination thereof being coupled in parallel to said triac, said timing capacitor being also connected between the other terminal of said diac and one main current terminal of said triac; said diode bridge rectifier being coupled to the other main current terminal of said triac; a reset circuit including a resistor and a first diode coupled in series with each other and in parallel with the main current path of said triac, and a second diode having one terminal connected to the juncture of said resistor and said first diode in polarity opposite to that of said first diode, and its other terminal connected to the other terminal of said diac; a motor of a type such that it acts as a generator when current is not being supplied to its armature, the motor armature being coupled to the output terminals of said bridge rectifier; and a feedback potentiometer connected across the input terminals of said bridge rectifier, said feedback potentiometer having a movable tap which is connected to one end of said speed potentiometer; the operation being such that the counter electromotive force generated by said motor when said triac is nonconductive diminished with increasing load on the motor thus tending to stabilize the motor speed.
+                </p>
+
+                    <p>
+Different devices are use control gate terminal of triac the devices are 555 timer IC, pulse transformer and Opto-coupler controlling the firing angle of triac Is done using these different devices the complete control of the circuitry depends on only one parameter that is voltage as we know that direction of the motor torque which is developed is directly proportional to the square of the voltage thus with the help of controlling the voltage in stator terminal by triac and its Gate pulse by increasing the firing angle the voltage is reduced and applied to the motor stator and due to the relation of voltage and torque, speed of the motor is controlled. DC Shunt motor is widely used industrial drives because of the ability to run at wide range of speed and torque.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Section">
+        <div class="Container">
+            <h1 class="title">Result and Conclusion</h1>
+            <div class="para">
+                <p><strong>Result: </strong>The aim of this project was to control the speed of the DC motor using TRIAC. We were able to control the speed of the DC shunt Motor by rotating the knob of the Potentiometer.When we will give the AC supply to the circuit the DC motor will start running at high starting current but by rotating the knob of the potentiometer in anti clockwise direction speed of the DC motor will decrease and by rotating that in clockwise direction speed will be increased.
+                </p>
+                <p>
+                    <strong>Conclusion: </strong>In this Project We have tried to control the speed of a dc shunt motor with the help of TRIAC and Opto-Coupler. also I had passed on the different types of methods and how we can use the speed control of a dc motor. 
+                    When we will give the AC supply to the circuit the DC motor will start running at high starting current but by rotating the knob of the potentiometer in anti clockwise direction speed of the DC motor will decrease and by rotating that in clockwise direction speed will be increased.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

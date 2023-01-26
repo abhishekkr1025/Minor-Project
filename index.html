@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Control of DC Shunt Motor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Contributors.html">CONTRIBUTORS</a></li>
+                <li><a href="Project.html">PROJECT</a></li>
+            
+            </ul>
+        </nav>
+        <h1 class="project-name project-name-large">Speed Control of DC Motor Using Triac</h1>
+        <br>
+        <br>
+    </header>
+   
+    <section class="Section">
+       <div class="Container-2">
+          <h1 class="title">
+            CONTENT'S DECLARATION
+          </h1>
+          <div class="para">
+            <p>
+                It is hereby certified that the work which is being presented in the B. Tech Minor Project Report entitled "SPEED CONTROL OF DC MOTOR USING TRIAC" in partial fulfilment of the requirements for the award of the degree of Bachelor of Technology and submitted in the Department of Electrical & Electronics Engineering of Bhagwan Parshuram Institute of Technology, New Delhi (Affiliated to Guru Gobind Singh Indraprastha University, Delhi) is an authentic record of our own work carried out during a period from  DEC 2022 to JAN 2023 under the guidance of Dr. B.S. Pali.
+      
+            </p>
+            <p>
+                The matter presented in the B. Tech Minor Project Report has not been submitted by me for the award of any other degree of this or any other Institute. 
+
+            </p>
+          </div>
+          <div class="members">
+
+          </div>
+       </div>
+    </section>
+    <section class="Section">
+        <div class="Container-2">
+           <h1 class="title">
+             ABSTRACT
+           </h1>
+           <div class="para">
+            <p>
+                The versatile control characteristics of DC motors have contributed to the extensive use of DC motors in the industry. With the increasing use of power semiconductor units, the speed control of DC motors is increasingly getting sophisticated and precise. Speed of the DC motor is controlled by controlling the armature voltage. Armature voltage is controlled using a different single phase AC/DC converter.
+            </p>
+            <p>
+                Speed Control of DC Motor Using TRIAC. DC motors are widely used in industry because of its low cost, less complex control structure and wide range of speed and torque. With the increasing use of power semiconductor units,  the speed control of DC motors is increasingly getting sophisticated and precise. A TRIAC is a bidirectional thyristor  with three terminals.Its three terminals are designated as MT1(main terminal 1),MT2 & gate by G. Triac can be turned on in each half cycle of the applied voltage by applying a positive or negative voltage to the gate with respect to the terminal 1. To successfully trigger a TRIAC, Gate current must come from the main terminal 2 side of the circuit
+            </p>
+            <p>
+                Also the speed control of the dc motor it may use in different applications, such as (lathes,fans,pump,disc and band saw drive requiring moderate torques,high speed tools,etc. 
+            </p>
+                       
+           </div>
+        </div>
+     </section>
+     <section class="Section">
+        <div class="Container-2">
+           <h1 class="title">
+             ACKNOWLEDGEMENT
+           </h1>
+           <div id="content">
+            <div class="img-container">
+                <img width=180 height=250 class="img" src="./BPIT-EEE-768x512.jpg" alt="B.S.Pali">
+            </div>
+             
+             <p>
+                We express our deep gratitude to Dr. B.S. Pali, Department of Electrical & Electronics Engineering for his valuable guidance and suggestion throughout my project work. We are thankful to Dr. B.S. Pali for their valuable guidance.
+             </p>
+           </div>
+           <div id="content">
+            <div class="img-container">
+                <img width=180 height=250 class="img" src="./DR.-PEEYUSH-PANT.jpg" alt="PEEYUSH-PANT">
+            </div> 
+             <p>
+                We would like to extend my sincere thanks to Head of the Department, Peeyush Pant for his time to time suggestions to complete my project work . 
+             </p>
+           </div>
+        </div>
+     </section>
+     
+    <section class="Section">
+        <div class="Container">
+            <h1 class="title">INTRODUCTION</h1>
+            <p class="para">
+                Something that is essential in the industrial applications to develop the motors drives to its high performance, in fact the high performance must have good dynamic speed command tracking and load regulating response. And for a long time the motors in the electric traction have been a secondary means, because the D.C motor is considered as a SISO system having torque/speed characteristics compatible with most mechanical loads. Which made it controllable over a large way of speed and that has been done through the proper adjustment of its terminal voltage. But nowadays the brushless D.C motors have become the most commonly used all over the world. A motor speed control including a fullwave diode bridge rectifier for rectifying alternating current received from a supply circuit, a triac coupled in a series loop circuit with the bridge rectifier and the supply line for controlling the flow of current through the bridge rectifier during both positive and negative half-cycles of the supply line voltage, and a control circuit for controlling the firing of the triac, the control circuit including a Opto-Coupler coupled in series with a timing capacitor. A speed-setting potentiometer, coupled in series with the timing capacitor, is utilized for selecting the operating speed of the motor.
+
+                For the low cost of the Speed Control of DC Motor Using Triac. DC motors made it the most used in the industrial side, even it is uncomplicated control structure, having a wide range of speed, and torque.
+                The world usage of power increases every day with this increase. The world works with a daily increased need for the power semiconductor units, by this need the speed control of DC motors is becoming sophisticated and precise.
+            </p>
+        </div>
+    </section>
+    <section class="Section">
+        <div class="Container">
+            <h1 class="title">Speed Control of DC Motor</h1>
+            <div class="img-container">
+                <img width=200 height=250 class="img" src="./DC-Shunt-Motor.jpg" alt="TRIAC">
+                <img width=200 height=250 class="img" src="./DC-Shunt-Motor-Circuit-Diagram-1.jpg" alt="TRIAC">
+                
+            </div> 
+            
+             <div class="para">
+                <p>Sometimes, we want to control the speed of a DC motor on demand. This intentional change of drive speed is known as speed control of a DC motor.</p>
+            
+                <p>Speed control of a DC motor is either done manually by the operator or by means of an automatic control device. This is different to speed regulation – where the speed is trying to be maintained (or ‘regulated’) against the natural change in speed due to a change in the load on the shaft
+                </p>
+                <p>
+                    The three methods of speed control are
+                </p>
+                <p>
+                    1.Armature Voltage Control Method
+                </p> 
+                <p>
+                    2.Armature resistance Control Method
+                </p>
+                <p>
+                    3.Flux Control Method
+                </p>
+            
+             </div>
+        </div>
+    </section>
+    <section class="Section">
+        <div class="Container">
+            <h1 class="title">TRIAC</h1>
+            <div class="img-container">
+                <img width=200 height=250 class="img" src="./TRIACC.jpg" alt="TRIAC">
+            </div> 
+             <div class="para">
+               <p>
+                TRIAC is an acronym that stands for “Triode for Alternating Current”. Triode means a three-terminal device while AC means that it is used for switching Alternating current. It is a three-terminal bi-directional switch that conducts in both directions. It is made from the combination of two SCRs in anti-parallel with their gates joined together.
+               </p> 
+                <p>
+                    TRIAC is an acronym that stands for “Triode for Alternating Current”. Triode means a three-terminal device while AC means that it is used for switching Alternating current. It is a three-terminal bi-directional switch that conducts in both directions. It is made from the combination of two SCRs in anti-parallel with their gates joined together.
+                </p>
+                <p>
+                    The three terminals are Gate, A1 or MT1 and A2 or MT2. It does not have an anode and cathode like a thyristor because it can conduct in both directions and it does not matter if the terminals are swapped.
+
+                </p>
+
+             </div>
+        </div>
+    </section>
+    
+    
+    
+   
+</body>
+
+</html>

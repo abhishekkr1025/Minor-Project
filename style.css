@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:wght@100;300;500&display=swap');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Booter - Zero Zero.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-style: oblique;
+    color: white;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*border: 2px solid red;*/
+    margin: auto;
+    padding: 90px;
+    background-color:rgb(41, 41, 240);
+    border-radius: 20px;
+    color: white;
+}
+.Section{
+    margin: auto;
+    padding: 20px;
+}
+
+
+.para{
+   margin: auto;
+   padding: 20px;
+}
+
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.75em;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+    text-align: center;
+    /* font-weight: lighter; */
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.main-header {
+    background-image: url("./motor2.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.603);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+    height: 450px;
+
+}
+
+.project-name {
+    display: flex;
+    text-align: center;
+    font-size: 4em;
+    margin: 100px 0px;
+    font-family: "Booter - Zero Zero";
+    color: white;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-name-large {
+    font-size: 6rem;
+}
+
+.Container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 60px;
+    background-color:rgb(148, 141, 141);
+    border-radius: 10px;
+    color: white;
+}
+.img{
+    border: 8px solid rgb(0, 8, 255);
+    border-radius: 10px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-container{
+    margin-top: 10px;
+    padding: 10px;
+}
